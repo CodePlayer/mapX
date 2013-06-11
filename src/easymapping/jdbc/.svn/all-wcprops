@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/EasyMapping/!svn/ver/1/src/easymapping/jdbc
+END
+IntegerThreadLocal.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/EasyMapping/!svn/ver/1/src/easymapping/jdbc/IntegerThreadLocal.java
+END
+JdbcUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/EasyMapping/!svn/ver/24/src/easymapping/jdbc/JdbcUtil.java
+END
+JdbcCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/EasyMapping/!svn/ver/24/src/easymapping/jdbc/JdbcCommand.java
+END
+JdbcException.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/EasyMapping/!svn/ver/4/src/easymapping/jdbc/JdbcException.java
+END
+ResultSetter.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/EasyMapping/!svn/ver/1/src/easymapping/jdbc/ResultSetter.java
+END
+BeanProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/EasyMapping/!svn/ver/27/src/easymapping/jdbc/BeanProcessor.java
+END
+JdbcStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/EasyMapping/!svn/ver/1/src/easymapping/jdbc/JdbcStatus.java
+END
+SQLBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/EasyMapping/!svn/ver/27/src/easymapping/jdbc/SQLBox.java
+END
+CallableStatementExecuter.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/EasyMapping/!svn/ver/1/src/easymapping/jdbc/CallableStatementExecuter.java
+END
+BeanFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/EasyMapping/!svn/ver/22/src/easymapping/jdbc/BeanFilter.java
+END

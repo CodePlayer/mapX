@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>系统提示</title>    
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta http-equiv="expires" content="0" />
+    <script type="text/javascript" src="../js/jquery-1.7.2.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="../js/jquery-extend-all.js" charset="UTF-8"></script>
+    </head>
+<body>
+<form action="/EasyMapping/user/showList.htm">
+	用户名：<input id="username" name="username" type="text" /><br/>
+	密码：<input id="password" name="password" type="text" />
+<div class="wrapper">
+	<input type="button" value="登录"  onclick="test()">
+</div>
+</form>
+<div id="text"></div>
+<script type="text/javascript">
+
+var v = new V(); 
+v.isNumber("#username=用户名;#password=密码");
+function test(){
+	if(v.validate()){
+		alert("通过验证！");
+	}
+}
+/*
+var v2 = new V();
+v2.isRequire("#username=用户名;#password=密码");
+*/
+
+
+/*
+function test(obj){
+	if(v.validate == false){
+		return
+	}
+}
+function User(name, age){
+	this.name = name;
+	this.age = age;
+	if(typeof this.sayHi != "function"){
+		User.prototype.sayHi = function(){
+				alert(this.name);
+		};
+	}
+}
+var u = new User("张三");
+u.sayHi();
+function Test(name){
+	var t = this;
+	this.name = name;
+	if(!this.sayHi){
+		Test.prototype.sayHi = function(){
+			alert(t.name);
+		} 
+	}
+}
+var t1 = new Test("张三");
+t1.sayHi();
+var t2 = new Test("李四");
+t2.sayHi();
+*/
+</script>
+</body>
+</html>

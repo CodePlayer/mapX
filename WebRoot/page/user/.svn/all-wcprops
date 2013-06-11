@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/EasyMapping/!svn/ver/1/WebRoot/page/user
+END
+addInfo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/EasyMapping/!svn/ver/1/WebRoot/page/user/addInfo.jsp
+END
+login.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/EasyMapping/!svn/ver/1/WebRoot/page/user/login.jsp
+END
+logout.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/EasyMapping/!svn/ver/1/WebRoot/page/user/logout.jsp
+END
+showList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/EasyMapping/!svn/ver/30/WebRoot/page/user/showList.jsp
+END
