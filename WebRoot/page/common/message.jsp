@@ -1,8 +1,8 @@
 <%@ page language="java" pageEncoding="UTF-8"%>
-<%@page import="easymapping.util.X"%>
-<%@page import="easymapping.util.btn.Button"%>
-<%@page import="easymapping.core.LogicException"%>
-<%@page import="easymapping.core.Messager"%>
+<%@page import="mapx.util.X"%>
+<%@page import="mapx.util.btn.Button"%>
+<%@page import="mapx.core.LogicException"%>
+<%@page import="mapx.core.Messager"%>
 <%
 	String path = request.getContextPath();
 	String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
