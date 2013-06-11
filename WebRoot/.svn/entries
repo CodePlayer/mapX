@@ -1,80 +1,0 @@
-10
-
-dir
-1
-https://ready/svn/EasyMapping/WebRoot
-https://ready/svn/EasyMapping
-
-
-
-2012-11-10T15:55:33.930560Z
-1
-ready
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-eecb79a9-4e12-df44-8b88-fecaf4f50883
-
-META-INF
-dir
-
-image
-dir
-
-index.jsp
-file
-
-
-
-
-2012-10-26T17:45:14.000000Z
-c32c5b8b239df1c804a388b3c3d1811b
-2012-11-10T15:55:33.930560Z
-1
-ready
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-829
-
-WEB-INF
-dir
-
-css
-dir
-
-js
-dir
-
-page
-dir
-

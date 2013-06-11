@@ -1,8 +1,8 @@
 package com.unisure.util;
 
-import easymapping.util.EasyDate;
-import easymapping.util.filter.Entry;
-import easymapping.util.filter.SQLFilter;
+import mapx.util.EasyDate;
+import mapx.util.filter.Entry;
+import mapx.util.filter.SQLFilter;
 
 public class DT implements SQLFilter {
 

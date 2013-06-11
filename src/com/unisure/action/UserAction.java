@@ -1,10 +1,9 @@
 package com.unisure.action;
 
+import mapx.action.ProcessorAction;
+import mapx.core.Bean;
+import mapx.core.Messager;
 import com.unisure.bean.User;
-import easymapping.action.ProcessorAction;
-import easymapping.core.Bean;
-import easymapping.core.Messager;
-import easymapping.util.btn.Button;
 
 /**
  * 用于演示的用户类管理Action
