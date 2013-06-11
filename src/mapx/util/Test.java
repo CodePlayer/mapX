@@ -1,11 +1,8 @@
 package mapx.util;
 
 import java.io.UnsupportedEncodingException;
-import org.apache.commons.logging.Log;
 
 public class Test {
-
-	private static Log log = X.getLog();
 
 	public static void testX() {
 		String str = "中国";
