@@ -58,7 +58,6 @@ public abstract class ProcessorAction extends ActionSupport implements ServletRe
 	 * 设置HttpServletRequest<br>
 	 * <b>注意：</b>此方法供Struts2调用，用于注入当前的HttpServletRequest对象
 	 */
-	@Override
 	public void setServletRequest(HttpServletRequest request) {
 		this.request = request;
 	};

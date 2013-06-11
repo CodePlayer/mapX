@@ -461,7 +461,6 @@ public class HashBean<K, V> extends HashMap<K, V> implements EnhanceMap<K, V> {
 	 * 批量删除指定键对应的映射
 	 * @param keys 指定的可变参数形式的key数组，
 	 */
-	@Override
 	public void removeKeys(K... keys) {
 		int size;
 		if (keys != null && (size = size()) > 0) {

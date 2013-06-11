@@ -4,53 +4,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
 	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
-  <!-- 目录默认欢迎页面 -->
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
-  
-  <!-- 过滤器配置 -->  
-  <context-param>
-  	<param-name>contextConfigLocation</param-name>
-  	<param-value>classpath:applicationContext*.xml</param-value>
-  </context-param>
-  
-  <!-- spring监听器：开启spring相关服务 -->
-  <listener>
-  	<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>  	
-  </listener>
-  
-  <!-- Spring Security 权限控制组件 
-  <filter>
-  	<filter-name>springSecurityFilterChain</filter-name>
-  	<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
-  </filter>
-  <filter-mapping>
-  	<filter-name>springSecurityFilterChain</filter-name>
-  	<url-pattern>/*</url-pattern>
-  </filter-mapping>
-  -->
-  
-  <!-- Struts2过滤器 -->
-  <filter>
-  	<filter-name>struts2</filter-name>
-  	<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
-  </filter>
-  
-  <filter-mapping>
-  	<filter-name>struts2</filter-name>
-  	<url-pattern>*.htm</url-pattern>
-  </filter-mapping> 
-  
-  <error-page>
-  	<error-code>403</error-code>
-  	<location>/page/common/403.jsp</location>
-  </error-page>
-  
-  <error-page>
-  	<error-code>404</error-code>
-  	<location>/page/common/404.jsp</location>
-  </error-page>
-  
-
 </web-app>
