@@ -3,6 +3,8 @@ package com.unisure.action;
 import mapx.action.ProcessorAction;
 import mapx.core.Bean;
 import mapx.core.Messager;
+import mapx.util.X;
+import org.apache.commons.logging.Log;
 import com.unisure.bean.User;
 
 /**
@@ -14,17 +16,15 @@ import com.unisure.bean.User;
 @SuppressWarnings("serial")
 public class UserAction extends ProcessorAction {
 
-	// private static final Log log = X.getLog();
+	private static final Log log = X.getLog();
 	private Messager messager = new Messager();
 	private User user;
 
-	
 	public User getUser() {
 		System.out.println("diaoyong");
 		return user;
 	}
 
-	
 	public void setUser(User user) {
 		this.user = user;
 	}
